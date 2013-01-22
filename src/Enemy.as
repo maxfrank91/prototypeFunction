@@ -24,12 +24,19 @@ package
             this.y = (ebene-1) * 100 + 50;
         }
 
+        /**
+         * push in Vector enemies and add it to stage
+         * @param stage
+         */
         public function spawn(stage:DisplayObjectContainer):void
         {
             enemies.push(this);
             stage.addChild(this);
         }
 
+        /**
+         * subtract x-value of Enemy
+         */
         public function move():void
         {
             this.x -= 5*speed;
