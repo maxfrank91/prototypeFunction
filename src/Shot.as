@@ -25,14 +25,9 @@ package
 
         public function shoot():void
         {
+            this.x += 10;
             if (this.x >= stage.stageWidth)
-            {
-                stage.removeChild(this);
                 ammunition.splice(ammunition.indexOf(this), 1);
-            }
-            else
-                this.x += 10;
-
         }
     }
 }
