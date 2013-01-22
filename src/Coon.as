@@ -17,6 +17,7 @@ package
         {
             super(x, ebene);
             speed = 5;
+            lifePoints = 5;
             image = new Image(Assets.getTexture("SpermditImage"));
             addChild(image);
         }
