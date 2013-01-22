@@ -14,14 +14,13 @@ package
     {
         private var image:Image;
 
-        public var ammunition:Vector.<Shot>;
+        public static var ammunition:Vector.<Shot>;
 
         public function Shot()
         {
             image = new Image(Assets.getTexture("Fire"));
             addChild(image);
             ammunition.push(this);
-            stage.addChild(this);
         }
 
         public function shoot():void
