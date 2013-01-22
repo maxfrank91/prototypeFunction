@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="prototypeFunction">
+    <configurations>
+      <configuration name="prototypeFunction" target-platform="Mobile" pure-as="true" main-class="PrototypeFunction" output-file="PrototypeFunction.swf" output-folder="$MODULE_DIR$/out/production/prototypeFunction">
+        <dependencies target-player="11.5">
+          <entries>
+            <entry library-name="lib" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="flexsdk" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/PrototypeFunction-app.xml" package-file-name="PrototypeFunction" />
+        <packaging-ios package-file-name="PrototypeFunction" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="flexsdk" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="lib" level="project" />
+  </component>
+</module>
+
